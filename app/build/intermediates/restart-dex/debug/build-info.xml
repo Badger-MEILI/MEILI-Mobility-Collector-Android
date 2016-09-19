@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="x86"
+    api-level="23"
+    density="xxhdpi"
+    format="7"
+    timestamp="799098560860782"
+    token="5636109410875624522" >
+
+    <task
+        name="javac"
+        duration="485" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="32" />
+    <task
+        name="verifier"
+        duration="8" />
+
+    <artifact
+        location="/Users/acpr/AndroidStudioProjects/MobilityCollector/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex"
+        type="DEX" />
+    <artifact
+        location="/Users/acpr/AndroidStudioProjects/MobilityCollector/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
+        type="DEX" />
+
+    <build timestamp="798880739612924" >
+        <artifact
+            location="/Users/acpr/AndroidStudioProjects/MobilityCollector/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+    <build timestamp="799098560860782" >
+        <artifact
+            location="/Users/acpr/AndroidStudioProjects/MobilityCollector/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex"
+            type="DEX" />
+        <artifact
+            location="/Users/acpr/AndroidStudioProjects/MobilityCollector/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
+            type="DEX" />
+    </build>
+
+</instant-run>

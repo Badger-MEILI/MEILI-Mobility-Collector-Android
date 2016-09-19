@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/acpr/AndroidStudioProjects/MobilityCollector/app/build/intermediates/res/merged/debug/layout/service_handling.xml",
+        "source": "/Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/res/layout/service_handling.xml"
+    },
+    {
+        "merged": "/Users/acpr/AndroidStudioProjects/MobilityCollector/app/build/intermediates/res/merged/debug/layout/mobility_main.xml",
+        "source": "/Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/res/layout/mobility_main.xml"
+    }
+]

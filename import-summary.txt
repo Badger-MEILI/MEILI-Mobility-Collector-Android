@@ -1,0 +1,171 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea/
+* .idea/.name
+* .idea/MobilityCollector.iml
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/encodings.xml
+* .idea/libraries/
+* .idea/libraries/dexedLibs.xml
+* .idea/libraries/libs.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/scopes/
+* .idea/scopes/scope_settings.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* MobilityCollector.apk
+* MobilityCollector.iml
+* config/
+* config/Config.java
+* config/Variables.java
+* out/
+* out/production/
+* out/production/MobilityCollector/
+* out/production/MobilityCollector/MobilityCollector.apk
+* out/production/MobilityCollector/components/
+* out/production/MobilityCollector/components/DatabaseHandler/
+* out/production/MobilityCollector/components/DatabaseHandler/AdministrativeDatabase.class
+* out/production/MobilityCollector/components/DatabaseHandler/AnnotationDatabase.class
+* out/production/MobilityCollector/components/DatabaseHandler/CentralDatabase.class
+* out/production/MobilityCollector/components/DatabaseHandler/LocationAccelerationDatabase.class
+* out/production/MobilityCollector/components/DatabaseHandler/LocationSimpleDatabase.class
+* out/production/MobilityCollector/components/Location/
+* out/production/MobilityCollector/components/Location/AccelerometerValues.class
+* out/production/MobilityCollector/components/Location/AnnotationsValues.class
+* out/production/MobilityCollector/components/Location/EmbeddedLocation.class
+* out/production/MobilityCollector/components/Location/EmbeddedLocationListener$1.class
+* out/production/MobilityCollector/components/Location/EmbeddedLocationListener$2.class
+* out/production/MobilityCollector/components/Location/EmbeddedLocationListener$3.class
+* out/production/MobilityCollector/components/Location/EmbeddedLocationListener.class
+* out/production/MobilityCollector/components/Location/EquidistanceTracking.class
+* out/production/MobilityCollector/components/Location/LocationValues.class
+* out/production/MobilityCollector/components/PowerSaving/
+* out/production/MobilityCollector/components/PowerSaving/PowerSavingAlarm$1.class
+* out/production/MobilityCollector/components/PowerSaving/PowerSavingAlarm.class
+* out/production/MobilityCollector/components/Service/
+* out/production/MobilityCollector/components/Service/CollectingService$1.class
+* out/production/MobilityCollector/components/Service/CollectingService$2.class
+* out/production/MobilityCollector/components/Service/CollectingService.class
+* out/production/MobilityCollector/config/
+* out/production/MobilityCollector/config/Variables/
+* out/production/MobilityCollector/config/Variables/Constants.class
+* out/production/MobilityCollector/config/Variables/Variables.class
+* out/production/MobilityCollector/design/
+* out/production/MobilityCollector/design/Classes/
+* out/production/MobilityCollector/design/Classes/AboutPage$1.class
+* out/production/MobilityCollector/design/Classes/AboutPage.class
+* out/production/MobilityCollector/design/Classes/AdminLogin$1.class
+* out/production/MobilityCollector/design/Classes/AdminLogin$2.class
+* out/production/MobilityCollector/design/Classes/AdminLogin.class
+* out/production/MobilityCollector/design/Classes/AdminPage$1.class
+* out/production/MobilityCollector/design/Classes/AdminPage$2.class
+* out/production/MobilityCollector/design/Classes/AdminPage$3.class
+* out/production/MobilityCollector/design/Classes/AdminPage.class
+* out/production/MobilityCollector/design/Classes/LoginPage$1.class
+* out/production/MobilityCollector/design/Classes/LoginPage$2.class
+* out/production/MobilityCollector/design/Classes/LoginPage$3.class
+* out/production/MobilityCollector/design/Classes/LoginPage$4.class
+* out/production/MobilityCollector/design/Classes/LoginPage.class
+* out/production/MobilityCollector/design/Classes/Meili.class
+* out/production/MobilityCollector/design/Classes/RegisterPage$1.class
+* out/production/MobilityCollector/design/Classes/RegisterPage$2.class
+* out/production/MobilityCollector/design/Classes/RegisterPage.class
+* out/production/MobilityCollector/design/Classes/ServiceHandling$1$1.class
+* out/production/MobilityCollector/design/Classes/ServiceHandling$1$2.class
+* out/production/MobilityCollector/design/Classes/ServiceHandling$1.class
+* out/production/MobilityCollector/design/Classes/ServiceHandling$2.class
+* out/production/MobilityCollector/design/Classes/ServiceHandling$3.class
+* out/production/MobilityCollector/design/Classes/ServiceHandling$4.class
+* out/production/MobilityCollector/design/Classes/ServiceHandling$5.class
+* out/production/MobilityCollector/design/Classes/ServiceHandling$6.class
+* out/production/MobilityCollector/design/Classes/ServiceHandling$7.class
+* out/production/MobilityCollector/design/Classes/ServiceHandling.class
+* out/production/MobilityCollector/kth/
+* out/production/MobilityCollector/kth/advanced/
+* out/production/MobilityCollector/kth/advanced/ExtraUpload.class
+* out/production/MobilityCollector/kth/advanced/InflectionDetector.class
+* out/production/MobilityCollector/kth/advanced/Point.class
+* out/production/MobilityCollector/kth/advanced/StopDetection.class
+* out/production/MobilityCollector/kth/advanced/StopMode.class
+* out/production/MobilityCollector/se/
+* out/production/MobilityCollector/se/kth/
+* out/production/MobilityCollector/se/kth/mobilitycollectorv2/
+* out/production/MobilityCollector/se/kth/mobilitycollectorv2/BuildConfig.class
+* out/production/MobilityCollector/se/kth/mobilitycollectorv2/R$attr.class
+* out/production/MobilityCollector/se/kth/mobilitycollectorv2/R$drawable.class
+* out/production/MobilityCollector/se/kth/mobilitycollectorv2/R$layout.class
+* out/production/MobilityCollector/se/kth/mobilitycollectorv2/R$string.class
+* out/production/MobilityCollector/se/kth/mobilitycollectorv2/R$style.class
+* out/production/MobilityCollector/se/kth/mobilitycollectorv2/R.class
+* out/production/MobilityCollector/utilities/
+* out/production/MobilityCollector/utilities/AnnotationFeeder.class
+* out/production/MobilityCollector/utilities/CheckURL.class
+* out/production/MobilityCollector/utilities/GetInfo.class
+* out/production/MobilityCollector/utilities/LoginAsync.class
+* out/production/MobilityCollector/utilities/OnBootReceiver.class
+* out/production/MobilityCollector/utilities/RegisterAsync.class
+* out/production/MobilityCollector/utilities/UploadAsync.class
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+gson-2.2.2-javadoc.jar => com.google.code.gson:gson:2.3.1
+gson-2.2.2-sources.jar => com.google.code.gson:gson:2.3.1
+gson-2.2.2.jar => com.google.code.gson:gson:2.2.2
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-2.2.2.jar => version 2.2.2 in com.google.code.gson:gson:2.2.2
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets
+* libs/acra-4.5.0.jar => app/libs/acra-4.5.0.jar
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

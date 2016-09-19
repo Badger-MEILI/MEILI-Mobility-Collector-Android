@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="adminTitleText">Administrativt Läge</string>
+    <string name="app_name">MEILI Mobility Collector</string>
+    <string name="closeButtonText">Stäng</string>
+    <string name="confirmPassword">Upprepa lösenord!</string>
+    <string name="confirmUpload">Manuell uppladdning genomförd</string>
+    <string name="contentText">Denna mobilapplikation samlar kontinuerligt in de resor (rörelsespår, byten och stopp/destinationer) som dess användare gör. Mobilapplikationen är en del av MEILI Systemet som även består av en webbapplikation som förenklar arbetet med att korrigera insamlad resdata. All insamlade resedata ger en värdefull insikt i resebehov hos befolkningen, något som är ett ovärderligt underlag vid transportplanering. Användningen av MEILI Mobility Collector är frivillig. Systemet ger användaren möjlighet att närsomhelst avbryta insamlandet av data eller radera en insamlad resa. De insamlade uppgifterna kommer endast att analyseras anonymt och användas för forskningsändamål.</string>
+    <string name="credentialsMissmatchWarning">Fyll i alla fält!</string>
+    <string name="deactivateGPSWarning">Avaktivering av GPS eller WiFi kommer att störa datainsamlingen!</string>
+    <string name="emailWarning">Ange en giltig e-postadress!</string>
+    <string name="enableGPSBody">Vill du sätta på GPS-mottagaren?</string>
+    <string name="enableGPSTitle">GPS-mottagaren är avstängd</string>
+    <string name="infirmUpload">Manuell upladdning misslyckades</string>
+    <string name="internetConnectionWarning">Se till så att du är uppkopplad till Internet när du försöker logga in eller registrera dig!</string>
+    <string name="loginText">Logga in</string>
+    <string name="menuAboutText">Om</string>
+    <string name="menuAdminText">Administratör</string>
+    <string name="menuStatusText">DB Status</string>
+    <string name="menuUploadText">Manuell Överföring</string>
+    <string name="noText">Nej</string>
+    <string name="notificationActionText">Hantera datainsamlingen</string>
+    <string name="notificationTitle">Du samlar för närvarande in data</string>
+    <string name="passwordError">Lösenorden matchar inte!</string>
+    <string name="registerAndLoginButton">Registrera dig och logga in</string>
+    <string name="registerNewUserText">Registrera dig som ny användare</string>
+    <string name="regularPasswordText">Lösenord</string>
+    <string name="regularUsernameText">Användarnamn</string>
+    <string name="serviceDisableBody">Vill du stänga av MEILI Mobility Collector?</string>
+    <string name="serviceDisableTitle">Tjänsten</string>
+    <string name="startCollectionText">Starta insamling</string>
+    <string name="stopCollectionText">Stoppa insamling</string>
+    <string name="subTitleText">MEILI Systemet finansieras av Trafikverket (TRV 2014/10422) och utvecklas av deltagande parter i den SPOT projekt.</string>
+    <string name="sudoCredentialsWrongMessage">Felaktigt användarnamn eller lösenord!</string>
+    <string name="sudoEmailText">Administratör</string>
+    <string name="sudoPasswordText">Lösenord</string>
+    <string name="titleControlCenter">MEILI Mobility Collector Control Center</string>
+    <string name="versionText">v1.0.1</string>
+    <string name="yesText">Ja</string>
+</resources>
