@@ -1,159 +1,174 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:1:1-101:12
+ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:1:1-101:12
 	package
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:2:5-41
-		INJECTED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:2:5-41
+		INJECTED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:4:5-32
-		INJECTED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:4:5-32
+		INJECTED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml
 	android:versionCode
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:3:5-28
-		INJECTED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:3:5-28
+		INJECTED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:1:11-69
 uses-sdk
-ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:7:5-9:41
+ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:7:5-9:41
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] /Users/acpr/.android/build-cache/2b3d8f108de6009989771467e162f2fae88823fa/output/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] /Users/acpr/.android/build-cache/42c3b3033c178c707090de8868d5a9e47fec570d/output/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] /Users/acpr/.android/build-cache/8684b5c517438337f42b19a52a6b07b1f0fadb56/output/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] /Users/acpr/.android/build-cache/d92a7c063eb69b524b970b8136b57b25f19a44dd/output/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] /Users/acpr/.android/build-cache/ea756ac66b96e1caa706b16ad162aaa259e46c3d/output/AndroidManifest.xml:27:5-43
 	android:targetSdkVersion
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:9:9-38
-		INJECTED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:8:9-34
-		INJECTED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:8:9-34
+		INJECTED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:11:5-79
+ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:11:5-79
 	android:name
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:11:22-76
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:11:22-76
 uses-permission#android.permission.WAKE_LOCK
-ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:12:5-68
+ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:12:5-68
 	android:name
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:12:22-65
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:12:22-65
 uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
-ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:13:5-81
+ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:13:5-81
 	android:name
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:13:22-78
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:13:22-78
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:14:5-79
+ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:14:5-79
 	android:name
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:14:22-76
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:14:22-76
 uses-permission#android.permission.INTERNET
-ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:15:5-67
+ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:15:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] /Users/acpr/.android/build-cache/2b3d8f108de6009989771467e162f2fae88823fa/output/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] /Users/acpr/.android/build-cache/42c3b3033c178c707090de8868d5a9e47fec570d/output/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] /Users/acpr/.android/build-cache/8684b5c517438337f42b19a52a6b07b1f0fadb56/output/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] /Users/acpr/.android/build-cache/d92a7c063eb69b524b970b8136b57b25f19a44dd/output/AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] /Users/acpr/.android/build-cache/ea756ac66b96e1caa706b16ad162aaa259e46c3d/output/AndroidManifest.xml:29:5-67
 	android:name
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:15:22-64
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:15:22-64
 application
-ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:17:5-99:19
+ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:17:5-99:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.6.8] /Users/acpr/.android/build-cache/2b3d8f108de6009989771467e162f2fae88823fa/output/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.5] /Users/acpr/.android/build-cache/42c3b3033c178c707090de8868d5a9e47fec570d/output/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.3.17] /Users/acpr/.android/build-cache/8684b5c517438337f42b19a52a6b07b1f0fadb56/output/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.3.13] /Users/acpr/.android/build-cache/d92a7c063eb69b524b970b8136b57b25f19a44dd/output/AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.3.17] /Users/acpr/.android/build-cache/ea756ac66b96e1caa706b16ad162aaa259e46c3d/output/AndroidManifest.xml:31:5-20
 	android:label
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:21:9-41
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:21:9-41
 	android:allowBackup
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:19:9-36
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:19:9-36
 	android:icon
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:20:9-45
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:20:9-45
 	android:theme
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:22:9-40
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:22:9-40
 	android:name
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:18:9-44
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:18:9-44
 activity#design.Classes.LoginPage
-ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:23:9-32:20
+ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:23:9-32:20
 	android:screenOrientation
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:26:13-49
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:26:13-49
 	android:label
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:25:13-47
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:25:13-47
 	android:name
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:24:13-52
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:24:13-52
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:27:13-31:29
+ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:27:13-31:29
 action#android.intent.action.MAIN
-ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:28:17-69
+ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:28:17-69
 	android:name
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:28:25-66
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:28:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:30:17-77
+ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:30:17-77
 	android:name
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:30:27-74
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:30:27-74
 activity#design.Classes.RegisterPage
-ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:33:9-40:20
+ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:33:9-40:20
 	android:screenOrientation
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:36:13-49
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:36:13-49
 	android:label
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:35:13-42
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:35:13-42
 	android:name
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:34:13-55
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:34:13-55
 intent-filter#android.intent.action.MAIN
-ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:37:13-39:29
+ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:37:13-39:29
 activity#design.Classes.ServiceHandling
-ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:41:9-48:20
+ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:41:9-48:20
 	android:screenOrientation
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:44:13-49
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:44:13-49
 	android:label
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:43:13-45
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:43:13-45
 	android:name
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:42:13-58
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:42:13-58
 activity#design.Classes.AboutPage
-ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:49:9-56:20
+ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:49:9-56:20
 	android:screenOrientation
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:52:13-49
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:52:13-49
 	android:label
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:51:13-34
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:51:13-34
 	android:name
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:50:13-52
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:50:13-52
 activity#design.Classes.AdminLogin
-ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:57:9-64:20
+ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:57:9-64:20
 	android:screenOrientation
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:60:13-49
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:60:13-49
 	android:label
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:59:13-48
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:59:13-48
 	android:name
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:58:13-53
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:58:13-53
 activity#design.Classes.AdminPage
-ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:65:9-72:20
+ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:65:9-72:20
 	android:screenOrientation
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:68:13-49
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:68:13-49
 	android:label
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:67:13-47
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:67:13-47
 	android:name
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:66:13-52
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:66:13-52
 service#components.Service.CollectingService
-ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:74:9-83:19
+ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:74:9-83:19
 	android:enabled
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:76:13-35
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:76:13-35
 	android:process
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:77:13-56
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:77:13-56
 	android:name
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:75:13-64
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:75:13-64
 intent-filter#android.intent.category.DEFAULT+components.Service.CollectingService
-ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:78:13-82:29
+ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:78:13-82:29
 action#components.Service.CollectingService
-ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:79:17-79
+ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:79:17-79
 	android:name
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:79:25-76
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:79:25-76
 category#android.intent.category.DEFAULT
-ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:81:17-76
+ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:81:17-76
 	android:name
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:81:27-73
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:81:27-73
 receiver#utilities.OnBootReceiver
-ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:85:9-93:20
+ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:85:9-93:20
 	android:enabled
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:87:13-35
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:87:13-35
 	android:label
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:89:13-43
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:89:13-43
 	android:exported
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:88:13-37
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:88:13-37
 	android:name
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:86:13-52
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:86:13-52
 intent-filter#android.intent.action.BOOT_COMPLETED
-ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:90:13-92:29
+ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:90:13-92:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:91:17-79
+ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:91:17-79
 	android:name
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:91:25-76
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:91:25-76
 receiver#components.PowerSaving.PowerSavingAlarm
-ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:94:9-97:20
+ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:94:9-97:20
 	android:process
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:96:13-56
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:96:13-56
 	android:name
-		ADDED from /Users/acpr/AndroidStudioProjects/MobilityCollector/app/src/main/AndroidManifest.xml:95:13-67
+		ADDED from /Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/src/main/AndroidManifest.xml:95:13-67

@@ -1,9 +1,9 @@
 package components.Location;
 
+import android.location.Location;
+
 import java.lang.reflect.Field;
 import java.util.LinkedHashMap;
-
-import android.location.Location;
 
 public class LocationValues {
 
@@ -65,6 +65,7 @@ public class LocationValues {
 		LinkedHashMap<String, String> hashMap = new LinkedHashMap<String, String>();
 		
 		for (Field f : LocationValues.class.getDeclaredFields()) {
+			if (!f.getName().contains("serialVersionUID"))
 			hashMap.put(f.getName(), utilities.GetInfo.convertTypeJavaToSql(f.getType().getName()));
 		}
 		return hashMap;

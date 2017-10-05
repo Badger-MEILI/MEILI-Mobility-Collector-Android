@@ -1,12 +1,5 @@
 package components.Service;
 
-import java.util.Calendar;
-import java.util.GregorianCalendar;
-import java.util.Timer;
-import java.util.TimerTask;
-
-import utilities.GetInfo;
-import utilities.UploadAsync;
 import android.app.Notification;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
@@ -17,11 +10,17 @@ import android.os.IBinder;
 import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 
-import components.Location.EmbeddedLocationListener;
+import java.util.Calendar;
+import java.util.GregorianCalendar;
+import java.util.Timer;
+import java.util.TimerTask;
 
+import components.Location.EmbeddedLocationListener;
 import config.Variables.Constants;
 import config.Variables.Variables;
 import design.Classes.ServiceHandling;
+import utilities.GetInfo;
+import utilities.UploadAsync;
 
 public class CollectingService extends Service {
 
@@ -83,9 +82,7 @@ public class CollectingService extends Service {
 				interactionActivity, 0);
 
 		Log.d("MY TAG TEXT", Constants.getInstance(getApplicationContext())+" ");
-		
-		Log.d("MY TAG SHIT TAG ", Constants.getInstance(this).notificationTitle);
-		
+
 		// TODO Change the icon to a project specific icon
 		Notification noti = new NotificationCompat.Builder(this)
 				.setContentTitle(Constants.getInstance(getApplicationContext()).notificationTitle)

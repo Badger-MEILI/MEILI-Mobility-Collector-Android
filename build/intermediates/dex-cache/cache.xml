@@ -1,2 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/libs/acra-4.5.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44a5eb946e0d83eed4a0128d877ca1fd8168b83a">
+        <dex dex="/Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/build/intermediates/transforms/dex/debug/folders/1000/2/acra-4.5.0_d29ef56741bdaeaa7fd025c5e40b5730e3dd1333/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/libs/acra-4.5.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.0"
+        sha1="44a5eb946e0d83eed4a0128d877ca1fd8168b83a">
+        <dex dex="/Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/build/intermediates/pre-dexed/debug/acra-4.5.0_d29ef56741bdaeaa7fd025c5e40b5730e3dd1333.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="6781e61eabcdc99bac578692b9bea83c03208664">
+        <dex dex="/Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_4105b5fc155aae1a213af1484121fe253b3b0420/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_5600c201afcef78c1d0cb55f464576225f15a1ec/classes.dex" />
+    </item>
+
+</items>

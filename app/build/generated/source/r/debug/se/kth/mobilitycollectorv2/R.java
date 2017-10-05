@@ -23,6 +23,7 @@ public final class R {
         public static final int adminTitleText=0x7f040000;
         public static final int app_name=0x7f040001;
         public static final int closeButtonText=0x7f040002;
+        public static final int com_crashlytics_android_build_id=0x7f040025;
         public static final int confirmPassword=0x7f040003;
         public static final int confirmUpload=0x7f040004;
         public static final int contentText=0x7f040005;
@@ -61,15 +62,8 @@ public final class R {
     public static final class style {
         /**  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
-
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        
          */
         public static final int AppBaseTheme=0x7f050000;
-        /**  All customizations that are NOT specific to a particular API-level can go here. 
-         */
         public static final int AppTheme=0x7f050001;
     }
 }

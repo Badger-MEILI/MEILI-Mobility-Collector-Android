@@ -1,22 +1,17 @@
 package design.Classes;
 
-import config.Variables.Constants;
-import se.kth.mobilitycollectorv2.R;
-
 import android.app.Activity;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-import android.widget.ImageButton;
-import android.widget.ImageView.ScaleType;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
+
+import config.Variables.Constants;
 
 public class AboutPage extends Activity {
 
@@ -74,11 +69,14 @@ public class AboutPage extends Activity {
 
 		// layoutParams.setMargins(100, 500, 100, 200);
 
+		// Please add your own logo if you desire
+		/*
 		ImageButton imageButton = new ImageButton(this);
 		imageButton.setImageResource(R.drawable.small_logo);
 		imageButton.setBackgroundColor(Color.TRANSPARENT);	
 		
 		currentLineraLayout.addView(imageButton);
+		*/
 		currentLineraLayout.addView(titleText, layoutParams);
 		currentLineraLayout.addView(titleText2);
 		currentLineraLayout.addView(titleText3);

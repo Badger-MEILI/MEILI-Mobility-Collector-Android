@@ -1,15 +1,17 @@
 package components.DatabaseHandler;
 
-import java.lang.reflect.Field;
-import java.util.LinkedHashMap;
-import java.util.LinkedList;
-
 import android.content.ContentValues;
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
+import android.util.Log;
 
 import com.google.gson.Gson;
+
+import java.lang.reflect.Field;
+import java.util.LinkedHashMap;
+import java.util.LinkedList;
+
 import components.Location.AccelerometerValues;
 import components.Location.EmbeddedLocation;
 import components.Location.LocationValues;
@@ -22,7 +24,7 @@ public class LocationAccelerationDatabase {
 	LinkedList<LinkedHashMap<String, String>> listOfMaps;
 
 	public LocationAccelerationDatabase(String databaseName,
-			String locationTableName_, Context ctx) {
+										String locationTableName_, Context ctx) {
 		this.name = databaseName;
 		locationTableName = locationTableName_;
 		this.mContext = ctx;
@@ -38,40 +40,49 @@ public class LocationAccelerationDatabase {
 	public boolean insertLocationIntoDb(EmbeddedLocation eL) {
 		ContentValues newValues = new ContentValues();
 
-		for (Field f : LocationValues.class.getDeclaredFields()) {
-			f.setAccessible(true);
+		for (Field f : LocationValues.class.getDeclaredFields())
+			if(!f.getName().contains("$")&&!f.getName().equalsIgnoreCase("serialVersionUID")){
+				f.setAccessible(true);
 
-			String name = f.getName();
-			String value;
-			try {
-				value = f.get(eL.getCurrentLocation()).toString();
-				newValues.put(name, value);
-			} catch (IllegalArgumentException e) {
-				e.printStackTrace();
-				return false;
-			} catch (IllegalAccessException e) {
-				e.printStackTrace();
-				return false;
+				String name = f.getName();
+				String value;
+				try {
+					if (eL.getCurrentLocation()!=null)
+					{
+						Log.d("FIELD", name);
+						value = f.get(eL.getCurrentLocation()).toString();
+						newValues.put(name, value);}
+				} catch (IllegalArgumentException e) {
+					e.printStackTrace();
+					return false;
+				} catch (IllegalAccessException e) {
+					e.printStackTrace();
+					return false;
+				}
+
 			}
 
-		}
-
-		for (Field f : AccelerometerValues.class.getDeclaredFields()) {
-			f.setAccessible(true);
-			String name = f.getName();
-			String value;
-			try {
-				value = f.get(eL.getCurrentAcc()).toString();
-				newValues.put(name, value);
-			} catch (IllegalArgumentException e) {
-				e.printStackTrace();
-				return false;
-			} catch (IllegalAccessException e) {
-				e.printStackTrace();
-				return false;
+		for (Field f : AccelerometerValues.class.getDeclaredFields())
+			if(!f.getName().contains("$")&&!f.getName().equalsIgnoreCase("serialVersionUID")){
+				f.setAccessible(true);
+				String name = f.getName();
+				String value;
+				try {
+					if(eL.getCurrentAcc()!=null) {
+						value = f.get(eL.getCurrentAcc()).toString();
+						newValues.put(name, value);
+					}
+				} catch (IllegalArgumentException e) {
+					e.printStackTrace();
+					return false;
+				} catch (IllegalAccessException e) {
+					e.printStackTrace();
+					return false;
+				}
 			}
-		}
-		
+
+        newValues.put("upload", "0");
+
 		myDatabase.insert(locationTableName, null, newValues);
 		newValues.clear();
 
@@ -85,15 +96,19 @@ public class LocationAccelerationDatabase {
 		String[] arrayOfFields = new String[numberOfElements];
 		int i = 0;
 		for (Field f : LocationValues.class.getDeclaredFields()) {
-			f.setAccessible(true);
-			arrayOfFields[i] = f.getName();
-			i++;
+			if(!f.getName().contains("$")&&!f.getName().equalsIgnoreCase("serialVersionUID")) {
+				f.setAccessible(true);
+				arrayOfFields[i] = f.getName();
+				i++;
+			}
 		}
 
 		for (Field f : AccelerometerValues.class.getDeclaredFields()) {
-			f.setAccessible(true);
-			arrayOfFields[i] = f.getName();
-			i++;
+			if(!f.getName().contains("$")&&!f.getName().equalsIgnoreCase("serialVersionUID")) {
+				f.setAccessible(true);
+				arrayOfFields[i] = f.getName();
+				i++;
+			}
 		}
 
 		Cursor cursor = myDatabase.query(locationTableName, arrayOfFields,
@@ -199,18 +214,29 @@ public class LocationAccelerationDatabase {
 		int i = 0;
 		for (Field f : LocationValues.class.getDeclaredFields()) {
 			f.setAccessible(true);
-			arrayOfFields[i] = f.getName();
-			i++;
+			if (!f.getName().equalsIgnoreCase("serialVersionUID"))
+			{
+				arrayOfFields[i] = f.getName();
+				i++;
+			}
 		}
 
 		for (Field f : AccelerometerValues.class.getDeclaredFields()) {
 			f.setAccessible(true);
-			arrayOfFields[i] = f.getName();
-			i++;
+			if (!f.getName().equalsIgnoreCase("serialVersionUID"))
+			{
+				arrayOfFields[i] = f.getName();
+				i++;
+			}
 		}
 
+
+	//	Cursor cursor = myDatabase.query(locationTableName, arrayOfFields,
+	//			"upload=?", new String[] { "FALSE" }, null, null, null);
+
 		Cursor cursor = myDatabase.query(locationTableName, arrayOfFields,
-				"upload=?", new String[] { "FALSE" }, null, null, null);
+				"not upload", null, null, null, null);
+
 		LinkedList<EmbeddedLocation> eL = new LinkedList<EmbeddedLocation>();
 
 		while (cursor.moveToNext()) {
@@ -298,6 +324,7 @@ public class LocationAccelerationDatabase {
 					yIsMoving, zIsMoving, totalIsMoving, size);
 
 			EmbeddedLocation embeddedLocation = new EmbeddedLocation(lV, aV);
+
 			eL.add(embeddedLocation);
 		}
 		return eL;
@@ -310,7 +337,7 @@ public class LocationAccelerationDatabase {
 
 	public void setUploadToTrue() {
 		ContentValues values = new ContentValues();
-		values.put("upload", "TRUE");
+		values.put("upload", "1");
 		myDatabase.update(locationTableName, values, null, null);
 	}
 

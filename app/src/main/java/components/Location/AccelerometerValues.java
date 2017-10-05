@@ -1,10 +1,10 @@
 package components.Location;
 
+import android.util.Log;
+
 import java.lang.reflect.Field;
 import java.util.LinkedHashMap;
 import java.util.LinkedList;
-
-import android.util.Log;
 
 public class AccelerometerValues {
 
@@ -20,15 +20,15 @@ public class AccelerometerValues {
 	public AccelerometerValues(LinkedList<float[]> accVal) {
 		feedAccelerometerValues(accVal);
 	}
-	
+
 	public AccelerometerValues(float xMean, float yMean, float zMean,
-			float totalMean, float xStdDev, float yStdDev, float zStdDev,
-			float totalStdDev, float xMin, float xMax, float yMin, float yMax,
-			float zMin, float zMax, float totalMin, float totalMax,
-			int xNumberOfPeaks, int yNumberOfPeaks, int zNumberOfPeaks,
-			int totalNumberOfPeaks, int totalNumberOfSteps, boolean xIsMoving,
-			boolean yIsMoving, boolean zIsMoving, boolean totalIsMoving,
-			int size) {
+							   float totalMean, float xStdDev, float yStdDev, float zStdDev,
+							   float totalStdDev, float xMin, float xMax, float yMin, float yMax,
+							   float zMin, float zMax, float totalMin, float totalMax,
+							   int xNumberOfPeaks, int yNumberOfPeaks, int zNumberOfPeaks,
+							   int totalNumberOfPeaks, int totalNumberOfSteps, boolean xIsMoving,
+							   boolean yIsMoving, boolean zIsMoving, boolean totalIsMoving,
+							   int size) {
 		super();
 		this.xMean = xMean;
 		this.yMean = yMean;
@@ -131,7 +131,7 @@ public class AccelerometerValues {
 	public int getTotalNumberOfSteps(){
 		return this.totalNumberOfSteps;
 	}
-	
+
 	private void setxMin(float xMin) {
 		this.xMinimum = xMin;
 	}
@@ -167,7 +167,7 @@ public class AccelerometerValues {
 	/**
 	 * Gets the relevant number of picks in the current iteration of the
 	 * recorded accelerometer values
-	 * 
+	 *
 	 * @param xValues
 	 *            accelerometer values in a linked list
 	 * @param xMean
@@ -177,7 +177,7 @@ public class AccelerometerValues {
 	 * @return the number of relevant peaks
 	 */
 	private int getNumberOfPeaks(LinkedList<Float> xValues, float xMean,
-			float xStdDev) {
+								 float xStdDev) {
 
 		float comparisonValue = xMean + (float) (Math.sqrt((double) xStdDev));
 
@@ -202,11 +202,11 @@ public class AccelerometerValues {
 	}
 
 	/*
-	 * 
+	 *
 	 * IGNORE THIS IN THE MOBILE GHENT CONFERENCE
 	 */
 	private int getNumberOfSteps(LinkedList<Float> xValues, float xMean,
-			float xStdDev) {
+								 float xStdDev) {
 		float comparisonValue = xMean + (float) (Math.sqrt((double) xStdDev));
 
 		boolean prevValue = false;
@@ -239,7 +239,7 @@ public class AccelerometerValues {
 	}
 
 	/**
-	 * 
+	 *
 	 * @param xValues
 	 *            accelerometer values linked list
 	 * @param mean
@@ -259,7 +259,7 @@ public class AccelerometerValues {
 
 		return false;
 	}
-	
+
 	private float getMax(LinkedList<Float> xValues) {
 		float xMax;
 		xMax = xValues.getFirst();
@@ -477,16 +477,9 @@ public class AccelerometerValues {
 
 	public static LinkedHashMap<String, String> getAllElements() {
 		LinkedHashMap<String, String> hashMap = new LinkedHashMap<String, String>();
-		for (Field f : AccelerometerValues.class.getDeclaredFields()) {
-		/*	Log.d("accelerometer fields", f.getName() + " "
-					+ f.getType().getName());*/
+		for (Field f : AccelerometerValues.class.getDeclaredFields()) { 
 			hashMap.put(f.getName(), utilities.GetInfo.convertTypeJavaToSql(f
-					.getType().getName()));
-			/*Log.d("inserted accelerometer fields",
-					f.getName()
-							+ " "
-							+ utilities.GetInfo.convertTypeJavaToSql(f
-									.getType().getName()));*/
+					.getType().getName())); 
 		}
 		return hashMap;
 	}

@@ -37,6 +37,7 @@ public class CentralDatabase {
 		} catch (Exception e1) {
 			// TODO Auto-generated catch block
 			Log.d("error1", e1.toString());
+			uploadString+= "&error=" + e1.toString();
 		}
 
 		try {
@@ -50,9 +51,10 @@ public class CentralDatabase {
 		} catch (Exception e) {
 			// TODO Auto-generated catch block
 			Log.d("error", e.toString());
+			uploadString+= "&error2=" + e.toString();
 		}
 
-	//	Log.d("upload string ", uploadString);
+	// Log.d("upload string ", uploadString);
 
 		return uploadString;
 	}

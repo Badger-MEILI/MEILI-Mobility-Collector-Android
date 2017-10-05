@@ -1,44 +1,112 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
-    api-level="23"
-    density="xxhdpi"
-    format="7"
-    timestamp="799098560860782"
-    token="5636109410875624522" >
+    abi="x86_64,x86"
+    api-level="25"
+    build-mode="COLD"
+    density="420dpi"
+    format="10"
+    plugin-version="2.3.3"
+    timestamp="1507231758523"
+    token="3845595053939594084"
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="485" />
+        duration="913" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="32" />
+        duration="56" />
     <task
         name="verifier"
         duration="8" />
 
     <artifact
-        location="/Users/acpr/AndroidStudioProjects/MobilityCollector/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex"
-        type="DEX" />
+        location="/Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        type="SPLIT" />
     <artifact
-        location="/Users/acpr/AndroidStudioProjects/MobilityCollector/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
-        type="DEX" />
+        location="/Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+        type="SPLIT" />
+    <artifact
+        location="/Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/build/outputs/apk/app-debug.apk"
+        type="SPLIT_MAIN" />
 
-    <build timestamp="798880739612924" >
+    <build
+        build-mode="FULL"
+        timestamp="1507230840581"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/Users/acpr/AndroidStudioProjects/MobilityCollector/app/build/outputs/apk/app-debug.apk"
-            type="MAIN" />
+            location="/Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/build/outputs/apk/app-debug.apk"
+            type="SPLIT_MAIN" />
+        <artifact
+            location="/Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
     </build>
-    <build timestamp="799098560860782" >
+    <build
+        build-mode="COLD"
+        timestamp="1507231432264"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/Users/acpr/AndroidStudioProjects/MobilityCollector/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_5/classes.dex"
-            type="DEX" />
+            location="/Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1507231758523"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/Users/acpr/AndroidStudioProjects/MobilityCollector/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
-            type="DEX" />
+            location="/Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/acpr/Meili/upstream/MEILI-Mobility-Collector-Android/app/build/outputs/apk/app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

@@ -1,12 +1,7 @@
 package design.Classes;
 
-import config.Variables.Constants;
-import utilities.GetInfo;
-import utilities.LoginAsync;
-import utilities.UploadAsync;
 import android.app.Activity;
 import android.content.Intent;
-import android.os.Build;
 import android.os.Bundle;
 import android.text.InputType;
 import android.text.SpannableString;
@@ -26,6 +21,14 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.crashlytics.android.Crashlytics;
+
+import config.Variables.Constants;
+import io.fabric.sdk.android.Fabric;
+import utilities.GetInfo;
+import utilities.LoginAsync;
+import utilities.UploadAsync;
+
 
 
 public class LoginPage extends Activity {
@@ -37,6 +40,7 @@ public class LoginPage extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
+		Fabric.with(this, new Crashlytics());
 
 		final GetInfo gI = new GetInfo(this);
 
