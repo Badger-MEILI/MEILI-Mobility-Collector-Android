@@ -1,4 +1,0 @@
-CHANGED,/Users/acpr/AndroidStudioProjects/MobilityCollector/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/config/Variables/Variables$override.class
-CHANGED,/Users/acpr/AndroidStudioProjects/MobilityCollector/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class
-CHANGED,/Users/acpr/AndroidStudioProjects/MobilityCollector/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/utilities/LoginAsync$override.class
-CHANGED,/Users/acpr/AndroidStudioProjects/MobilityCollector/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/utilities/UploadAsync$override.class
