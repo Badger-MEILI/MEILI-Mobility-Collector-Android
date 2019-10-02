@@ -96,6 +96,9 @@
             android:process=":ServiceMobilityCollector" >
         </receiver>
 
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="348a484b7306c08776fc78b4857fa69e5b854b89" />
     </application>
 
 </manifest>
